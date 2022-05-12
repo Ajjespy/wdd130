@@ -1,0 +1,44 @@
+body {
+    background-color: #FCA6C9;
+}
+main{
+    margin: 25%;
+}
+blockquote{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+ol{
+    text-align: left;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    color: white;
+}
+#main{
+    text-align: center;
+    color: white;
+}
+.footer{
+    text-align: center;
+    color: black;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.title:hover{
+    color: black;
+}
