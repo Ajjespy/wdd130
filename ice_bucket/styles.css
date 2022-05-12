@@ -2,7 +2,8 @@ body {
     background-color: #FCA6C9;
 }
 main{
-    margin: 25%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 blockquote{
     color: white;
