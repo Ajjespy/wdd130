@@ -1,0 +1,25 @@
+.icon {
+    border-radius: 50%;
+    border: 8px solid #444444;
+    width: 200px;
+}
+
+.iconbar {
+    background-color: #737373;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    height: 300px;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1600px;
+}
+
+body {
+    font-size: 0;
+}
