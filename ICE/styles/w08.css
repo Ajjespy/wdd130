@@ -1,0 +1,23 @@
+body{
+    max-width: 2000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+img{
+    grid-column: 1/2;
+    height: 200%;
+    width: 100%;
+
+}
+div{
+    justify-content: center;
+}
+h1, p {
+    text-align: center;
+}
+.textbox{
+    width: 90%;
+}
+#checkbox{
+    grid-column: 2/3;
+}
