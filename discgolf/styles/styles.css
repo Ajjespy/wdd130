@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: linear-gradient(90deg,#bdc3c7, #2c3e50); */
+    background-image: url(/wdd130/discgolf/images/Disc-pic.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rule {
+    padding: .5rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004E64;
+}
+.navHeader {
+    margin: 2;
+    padding: 1rem;
+    color: white;
+}
+
+.logo{
+    margin: 0rem;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLinks ul {
+    margin: 1rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.headerLinks li a {
+    text-decoration: none;
+    color: #84C318;
+    padding: 1rem;
+    display: block;
+}
+
+.headerLinks li a:hover{
+    color: black;
+}
+
+.headerLinks li:hover {
+    background-color: #00A5CF;
+    border-radius: 30px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bodyContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+
+}
+
+.factsHeader {
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+.history,.rules {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #503d42c4;
+    color: white;
+    border-radius: 30px;
+}
+
+.img{
+    filter: brightness(60%);
+    text-align: center;
+    width: 400px;
+}
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .headerLinks {
+        display: none;
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .headerLinks ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .headerLinks li {
+        text-align: center;
+    }
+
+    .headerLinks li a {
+        padding: .5rem 1rem;
+    }
+
+    .headerLinks.active {
+        display: flex;
+    }
+    body{
+        background-color: black;
+        background-image: none;
+    }
+}
