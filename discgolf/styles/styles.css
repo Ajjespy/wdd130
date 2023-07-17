@@ -118,7 +118,7 @@ p a:hover{
 }
 
 .img{
-    filter: brightness(60%);
+    filter: brightness(80%);
     text-align: center;
     width: 400px;
 }
