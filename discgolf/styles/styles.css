@@ -23,7 +23,7 @@ body {
     align-items: center;
     background-color: #004E64;
 }
-footer h3{
+footer h3, header h1, header .headerLinks{
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -122,7 +122,7 @@ p a:hover{
     text-align: center;
     width: 400px;
 }
-.tips{
+.tips, .course-card{
     margin: 1rem;
     padding: 1rem;
     text-align: center;
@@ -133,7 +133,7 @@ p a:hover{
     justify-self: center;
     box-shadow: 5px 5px 10px black;
 }
-.tips img {
+.tips img , .course-card img{
     max-width: 70%;
     border-radius: 30px;
     box-shadow: 5px 5px 10px black;
@@ -154,6 +154,16 @@ p a:hover{
     width: 30%;
     border-radius: 30px;
     box-shadow: 5px 5px 10px black;
+}
+
+.course-card img{
+    transition: transform .5s;
+    margin: .7rem;
+}
+
+.course-card img:hover{
+    opacity: .9;
+    transform: scale(1.1);
 }
 
 
